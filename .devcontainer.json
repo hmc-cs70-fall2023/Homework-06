@@ -1,0 +1,14 @@
+{
+    "name": "CS70",
+    "image": "harveymudd/cs70-student:spring2023",
+    "runArgs": ["--rm"],
+
+    "extensions": ["ms-vscode.cpptools", "ms-vsliveshare.vsliveshare"],
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh",
+	"terminal.integrated.defaultProfile.linux": "zsh"
+    },
+
+    "workspaceMount": "type=bind,source=${localWorkspaceFolder},target=/home/student/cs70",
+    "workspaceFolder": "/home/student/cs70"
+}

@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Docker",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17"
+        }
+    ],
+    "version": 4
+}
